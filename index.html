@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="calcu.js"></script>
+    <title>Kalkulator Konversi Suhu</title>
+</head>
+<body>
+    <header>
+        <h1>Kalkulator Konversi Suhu</h1>
+    </header>
+    <div class="container">
+        <h1>Kalkulator Konversi Suhu</h1>
+    
+        <div class="input-group">
+          <label for="celcius">Celcius</label>
+          <input type="number" id="celcius" placeholder="Masukkan suhu dalam Celcius">
+        </div>
+    
+        <div class="input-group">
+          <label for="fahrenheit">Fahrenheit</label>
+          <input type="number" id="fahrenheit" placeholder="Masukkan suhu dalam Fahrenheit">
+        </div>
+
+        <button class="btn" onclick="convertToCelsius()">Konversi ke Celcius</button>
+        <button class="btn" onclick="convertToFahrenheit()">Konversi ke Fahrenheit</button>
+
+    <p class="result" id="result"></p>
+  </div>
+</body>
+</html>
